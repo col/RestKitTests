@@ -20,6 +20,23 @@
 		EF526BD8154D518700667CF6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF526BB9154D518600667CF6 /* Foundation.framework */; };
 		EF526BE0154D518700667CF6 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = EF526BDE154D518700667CF6 /* InfoPlist.strings */; };
 		EF526BE3154D518700667CF6 /* RestKitTestsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EF526BE2154D518700667CF6 /* RestKitTestsTests.m */; };
+		EF526C01154D543B00667CF6 /* libRestKit.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EF526BF8154D53DA00667CF6 /* libRestKit.a */; };
+		EF526C03154D544E00667CF6 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF526C02154D544E00667CF6 /* CFNetwork.framework */; };
+		EF526C05154D545400667CF6 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF526C04154D545400667CF6 /* CoreData.framework */; };
+		EF526C07154D545A00667CF6 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF526C06154D545A00667CF6 /* Security.framework */; };
+		EF526C09154D546600667CF6 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF526C08154D546600667CF6 /* MobileCoreServices.framework */; };
+		EF526C0B154D546C00667CF6 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF526C0A154D546C00667CF6 /* SystemConfiguration.framework */; };
+		EF526C0D154D547500667CF6 /* libxml2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = EF526C0C154D547500667CF6 /* libxml2.dylib */; };
+		EF526C0F154D547A00667CF6 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF526C0E154D547A00667CF6 /* QuartzCore.framework */; };
+		EF526C10154D54A700667CF6 /* libRestKit.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EF526BF8154D53DA00667CF6 /* libRestKit.a */; };
+		EF526C11154D54A700667CF6 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF526C02154D544E00667CF6 /* CFNetwork.framework */; };
+		EF526C12154D54A700667CF6 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF526C04154D545400667CF6 /* CoreData.framework */; };
+		EF526C13154D54A700667CF6 /* libxml2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = EF526C0C154D547500667CF6 /* libxml2.dylib */; };
+		EF526C14154D54A700667CF6 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF526C08154D546600667CF6 /* MobileCoreServices.framework */; };
+		EF526C15154D54A700667CF6 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF526C0E154D547A00667CF6 /* QuartzCore.framework */; };
+		EF526C16154D54A700667CF6 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF526C06154D545A00667CF6 /* Security.framework */; };
+		EF526C17154D54A700667CF6 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF526C0A154D546C00667CF6 /* SystemConfiguration.framework */; };
+		EF526C18154D55EE00667CF6 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF526BBB154D518600667CF6 /* CoreGraphics.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -30,6 +47,41 @@
 			remoteGlobalIDString = EF526BB2154D518600667CF6;
 			remoteInfo = RestKitTests;
 		};
+		EF526BF7154D53DA00667CF6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EF526BEC154D53DA00667CF6 /* RestKit.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 25160D1614564E810060A5C5;
+			remoteInfo = RestKit;
+		};
+		EF526BF9154D53DA00667CF6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EF526BEC154D53DA00667CF6 /* RestKit.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 25160D2614564E820060A5C5;
+			remoteInfo = RestKitTests;
+		};
+		EF526BFB154D53DA00667CF6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EF526BEC154D53DA00667CF6 /* RestKit.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 25160E62145651060060A5C5;
+			remoteInfo = RestKitFramework;
+		};
+		EF526BFD154D53DA00667CF6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EF526BEC154D53DA00667CF6 /* RestKit.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 25160E78145651060060A5C5;
+			remoteInfo = RestKitFrameworkTests;
+		};
+		EF526BFF154D53DA00667CF6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EF526BEC154D53DA00667CF6 /* RestKit.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 259C301615128079003066A2;
+			remoteInfo = RestKitResources;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
@@ -37,21 +89,29 @@
 		EF526BB7154D518600667CF6 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		EF526BB9154D518600667CF6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		EF526BBB154D518600667CF6 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		EF526BBF154D518600667CF6 /* RestKitTests-Info.plist */ = {isa = PBXFileReference; path = "RestKitTests-Info.plist"; sourceTree = "<group>"; };
+		EF526BBF154D518600667CF6 /* RestKitTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "RestKitTests-Info.plist"; sourceTree = "<group>"; };
 		EF526BC1154D518600667CF6 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		EF526BC3154D518600667CF6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		EF526BC5154D518600667CF6 /* RestKitTests-Prefix.pch */ = {isa = PBXFileReference; path = "RestKitTests-Prefix.pch"; sourceTree = "<group>"; };
-		EF526BC6154D518600667CF6 /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		EF526BC5154D518600667CF6 /* RestKitTests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "RestKitTests-Prefix.pch"; sourceTree = "<group>"; };
+		EF526BC6154D518600667CF6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		EF526BC7154D518600667CF6 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		EF526BC9154D518600667CF6 /* ViewController.h */ = {isa = PBXFileReference; path = ViewController.h; sourceTree = "<group>"; };
+		EF526BC9154D518600667CF6 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		EF526BCA154D518600667CF6 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		EF526BCD154D518600667CF6 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
 		EF526BD4154D518700667CF6 /* RestKitTestsTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RestKitTestsTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EF526BD5154D518700667CF6 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
-		EF526BDD154D518700667CF6 /* RestKitTestsTests-Info.plist */ = {isa = PBXFileReference; path = "RestKitTestsTests-Info.plist"; sourceTree = "<group>"; };
+		EF526BDD154D518700667CF6 /* RestKitTestsTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "RestKitTestsTests-Info.plist"; sourceTree = "<group>"; };
 		EF526BDF154D518700667CF6 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		EF526BE1154D518700667CF6 /* RestKitTestsTests.h */ = {isa = PBXFileReference; path = RestKitTestsTests.h; sourceTree = "<group>"; };
+		EF526BE1154D518700667CF6 /* RestKitTestsTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RestKitTestsTests.h; sourceTree = "<group>"; };
 		EF526BE2154D518700667CF6 /* RestKitTestsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RestKitTestsTests.m; sourceTree = "<group>"; };
+		EF526BEC154D53DA00667CF6 /* RestKit.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RestKit.xcodeproj; path = RestKit/RestKit.xcodeproj; sourceTree = "<group>"; };
+		EF526C02154D544E00667CF6 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		EF526C04154D545400667CF6 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		EF526C06154D545A00667CF6 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		EF526C08154D546600667CF6 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		EF526C0A154D546C00667CF6 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		EF526C0C154D547500667CF6 /* libxml2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libxml2.dylib; path = usr/lib/libxml2.dylib; sourceTree = SDKROOT; };
+		EF526C0E154D547A00667CF6 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +119,14 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EF526C0F154D547A00667CF6 /* QuartzCore.framework in Frameworks */,
+				EF526C0D154D547500667CF6 /* libxml2.dylib in Frameworks */,
+				EF526C0B154D546C00667CF6 /* SystemConfiguration.framework in Frameworks */,
+				EF526C09154D546600667CF6 /* MobileCoreServices.framework in Frameworks */,
+				EF526C07154D545A00667CF6 /* Security.framework in Frameworks */,
+				EF526C05154D545400667CF6 /* CoreData.framework in Frameworks */,
+				EF526C03154D544E00667CF6 /* CFNetwork.framework in Frameworks */,
+				EF526C01154D543B00667CF6 /* libRestKit.a in Frameworks */,
 				EF526BB8154D518600667CF6 /* UIKit.framework in Frameworks */,
 				EF526BBA154D518600667CF6 /* Foundation.framework in Frameworks */,
 				EF526BBC154D518600667CF6 /* CoreGraphics.framework in Frameworks */,
@@ -69,6 +137,15 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EF526C18154D55EE00667CF6 /* CoreGraphics.framework in Frameworks */,
+				EF526C10154D54A700667CF6 /* libRestKit.a in Frameworks */,
+				EF526C11154D54A700667CF6 /* CFNetwork.framework in Frameworks */,
+				EF526C12154D54A700667CF6 /* CoreData.framework in Frameworks */,
+				EF526C13154D54A700667CF6 /* libxml2.dylib in Frameworks */,
+				EF526C14154D54A700667CF6 /* MobileCoreServices.framework in Frameworks */,
+				EF526C15154D54A700667CF6 /* QuartzCore.framework in Frameworks */,
+				EF526C16154D54A700667CF6 /* Security.framework in Frameworks */,
+				EF526C17154D54A700667CF6 /* SystemConfiguration.framework in Frameworks */,
 				EF526BD6154D518700667CF6 /* SenTestingKit.framework in Frameworks */,
 				EF526BD7154D518700667CF6 /* UIKit.framework in Frameworks */,
 				EF526BD8154D518700667CF6 /* Foundation.framework in Frameworks */,
@@ -81,6 +158,7 @@
 		EF526BA8154D518600667CF6 = {
 			isa = PBXGroup;
 			children = (
+				EF526BEC154D53DA00667CF6 /* RestKit.xcodeproj */,
 				EF526BBD154D518600667CF6 /* RestKitTests */,
 				EF526BDB154D518700667CF6 /* RestKitTestsTests */,
 				EF526BB6154D518600667CF6 /* Frameworks */,
@@ -100,6 +178,13 @@
 		EF526BB6154D518600667CF6 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				EF526C0E154D547A00667CF6 /* QuartzCore.framework */,
+				EF526C0C154D547500667CF6 /* libxml2.dylib */,
+				EF526C0A154D546C00667CF6 /* SystemConfiguration.framework */,
+				EF526C08154D546600667CF6 /* MobileCoreServices.framework */,
+				EF526C06154D545A00667CF6 /* Security.framework */,
+				EF526C04154D545400667CF6 /* CoreData.framework */,
+				EF526C02154D544E00667CF6 /* CFNetwork.framework */,
 				EF526BB7154D518600667CF6 /* UIKit.framework */,
 				EF526BB9154D518600667CF6 /* Foundation.framework */,
 				EF526BBB154D518600667CF6 /* CoreGraphics.framework */,
@@ -111,6 +196,7 @@
 		EF526BBD154D518600667CF6 /* RestKitTests */ = {
 			isa = PBXGroup;
 			children = (
+				EF526C19154D562F00667CF6 /* Model */,
 				EF526BC6154D518600667CF6 /* AppDelegate.h */,
 				EF526BC7154D518600667CF6 /* AppDelegate.m */,
 				EF526BC9154D518600667CF6 /* ViewController.h */,
@@ -149,6 +235,25 @@
 				EF526BDE154D518700667CF6 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EF526BED154D53DA00667CF6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EF526BF8154D53DA00667CF6 /* libRestKit.a */,
+				EF526BFA154D53DA00667CF6 /* RestKitTests.octest */,
+				EF526BFC154D53DA00667CF6 /* RestKit.framework */,
+				EF526BFE154D53DA00667CF6 /* RestKitFrameworkTests.octest */,
+				EF526C00154D53DA00667CF6 /* RestKitResources.bundle */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EF526C19154D562F00667CF6 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -209,6 +314,12 @@
 			mainGroup = EF526BA8154D518600667CF6;
 			productRefGroup = EF526BB4154D518600667CF6 /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = EF526BED154D53DA00667CF6 /* Products */;
+					ProjectRef = EF526BEC154D53DA00667CF6 /* RestKit.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				EF526BB2154D518600667CF6 /* RestKitTests */,
@@ -216,6 +327,44 @@
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		EF526BF8154D53DA00667CF6 /* libRestKit.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libRestKit.a;
+			remoteRef = EF526BF7154D53DA00667CF6 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		EF526BFA154D53DA00667CF6 /* RestKitTests.octest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = RestKitTests.octest;
+			remoteRef = EF526BF9154D53DA00667CF6 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		EF526BFC154D53DA00667CF6 /* RestKit.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = RestKit.framework;
+			remoteRef = EF526BFB154D53DA00667CF6 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		EF526BFE154D53DA00667CF6 /* RestKitFrameworkTests.octest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = RestKitFrameworkTests.octest;
+			remoteRef = EF526BFD154D53DA00667CF6 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		EF526C00154D53DA00667CF6 /* RestKitResources.bundle */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = RestKitResources.bundle;
+			remoteRef = EF526BFF154D53DA00667CF6 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		EF526BB1154D518600667CF6 /* Resources */ = {
@@ -358,7 +507,12 @@
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "RestKitTests/RestKitTests-Prefix.pch";
+				HEADER_SEARCH_PATHS = "\"$(BUILT_PRODUCTS_DIR)/../../Headers\"";
 				INFOPLIST_FILE = "RestKitTests/RestKitTests-Info.plist";
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-all_load",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -369,7 +523,12 @@
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "RestKitTests/RestKitTests-Prefix.pch";
+				HEADER_SEARCH_PATHS = "\"$(BUILT_PRODUCTS_DIR)/../../Headers\"";
 				INFOPLIST_FILE = "RestKitTests/RestKitTests-Info.plist";
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-all_load",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -385,7 +544,12 @@
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "RestKitTests/RestKitTests-Prefix.pch";
+				HEADER_SEARCH_PATHS = "\"$(BUILT_PRODUCTS_DIR)/../../Headers\"";
 				INFOPLIST_FILE = "RestKitTestsTests/RestKitTestsTests-Info.plist";
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-all_load",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = octest;
@@ -402,7 +566,12 @@
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "RestKitTests/RestKitTests-Prefix.pch";
+				HEADER_SEARCH_PATHS = "\"$(BUILT_PRODUCTS_DIR)/../../Headers\"";
 				INFOPLIST_FILE = "RestKitTestsTests/RestKitTestsTests-Info.plist";
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-all_load",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = octest;
