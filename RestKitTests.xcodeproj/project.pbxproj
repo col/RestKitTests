@@ -1,0 +1,443 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EF526BB8154D518600667CF6 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF526BB7154D518600667CF6 /* UIKit.framework */; };
+		EF526BBA154D518600667CF6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF526BB9154D518600667CF6 /* Foundation.framework */; };
+		EF526BBC154D518600667CF6 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF526BBB154D518600667CF6 /* CoreGraphics.framework */; };
+		EF526BC2154D518600667CF6 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = EF526BC0154D518600667CF6 /* InfoPlist.strings */; };
+		EF526BC4154D518600667CF6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EF526BC3154D518600667CF6 /* main.m */; };
+		EF526BC8154D518600667CF6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EF526BC7154D518600667CF6 /* AppDelegate.m */; };
+		EF526BCB154D518600667CF6 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EF526BCA154D518600667CF6 /* ViewController.m */; };
+		EF526BCE154D518600667CF6 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EF526BCC154D518600667CF6 /* ViewController.xib */; };
+		EF526BD6154D518700667CF6 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF526BD5154D518700667CF6 /* SenTestingKit.framework */; };
+		EF526BD7154D518700667CF6 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF526BB7154D518600667CF6 /* UIKit.framework */; };
+		EF526BD8154D518700667CF6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF526BB9154D518600667CF6 /* Foundation.framework */; };
+		EF526BE0154D518700667CF6 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = EF526BDE154D518700667CF6 /* InfoPlist.strings */; };
+		EF526BE3154D518700667CF6 /* RestKitTestsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EF526BE2154D518700667CF6 /* RestKitTestsTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EF526BD9154D518700667CF6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EF526BAA154D518600667CF6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EF526BB2154D518600667CF6;
+			remoteInfo = RestKitTests;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EF526BB3154D518600667CF6 /* RestKitTests.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RestKitTests.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF526BB7154D518600667CF6 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		EF526BB9154D518600667CF6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		EF526BBB154D518600667CF6 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		EF526BBF154D518600667CF6 /* RestKitTests-Info.plist */ = {isa = PBXFileReference; path = "RestKitTests-Info.plist"; sourceTree = "<group>"; };
+		EF526BC1154D518600667CF6 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		EF526BC3154D518600667CF6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EF526BC5154D518600667CF6 /* RestKitTests-Prefix.pch */ = {isa = PBXFileReference; path = "RestKitTests-Prefix.pch"; sourceTree = "<group>"; };
+		EF526BC6154D518600667CF6 /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		EF526BC7154D518600667CF6 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		EF526BC9154D518600667CF6 /* ViewController.h */ = {isa = PBXFileReference; path = ViewController.h; sourceTree = "<group>"; };
+		EF526BCA154D518600667CF6 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		EF526BCD154D518600667CF6 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+		EF526BD4154D518700667CF6 /* RestKitTestsTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RestKitTestsTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF526BD5154D518700667CF6 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		EF526BDD154D518700667CF6 /* RestKitTestsTests-Info.plist */ = {isa = PBXFileReference; path = "RestKitTestsTests-Info.plist"; sourceTree = "<group>"; };
+		EF526BDF154D518700667CF6 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		EF526BE1154D518700667CF6 /* RestKitTestsTests.h */ = {isa = PBXFileReference; path = RestKitTestsTests.h; sourceTree = "<group>"; };
+		EF526BE2154D518700667CF6 /* RestKitTestsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RestKitTestsTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EF526BB0154D518600667CF6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF526BB8154D518600667CF6 /* UIKit.framework in Frameworks */,
+				EF526BBA154D518600667CF6 /* Foundation.framework in Frameworks */,
+				EF526BBC154D518600667CF6 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF526BD0154D518700667CF6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF526BD6154D518700667CF6 /* SenTestingKit.framework in Frameworks */,
+				EF526BD7154D518700667CF6 /* UIKit.framework in Frameworks */,
+				EF526BD8154D518700667CF6 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EF526BA8154D518600667CF6 = {
+			isa = PBXGroup;
+			children = (
+				EF526BBD154D518600667CF6 /* RestKitTests */,
+				EF526BDB154D518700667CF6 /* RestKitTestsTests */,
+				EF526BB6154D518600667CF6 /* Frameworks */,
+				EF526BB4154D518600667CF6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EF526BB4154D518600667CF6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EF526BB3154D518600667CF6 /* RestKitTests.app */,
+				EF526BD4154D518700667CF6 /* RestKitTestsTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EF526BB6154D518600667CF6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EF526BB7154D518600667CF6 /* UIKit.framework */,
+				EF526BB9154D518600667CF6 /* Foundation.framework */,
+				EF526BBB154D518600667CF6 /* CoreGraphics.framework */,
+				EF526BD5154D518700667CF6 /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EF526BBD154D518600667CF6 /* RestKitTests */ = {
+			isa = PBXGroup;
+			children = (
+				EF526BC6154D518600667CF6 /* AppDelegate.h */,
+				EF526BC7154D518600667CF6 /* AppDelegate.m */,
+				EF526BC9154D518600667CF6 /* ViewController.h */,
+				EF526BCA154D518600667CF6 /* ViewController.m */,
+				EF526BCC154D518600667CF6 /* ViewController.xib */,
+				EF526BBE154D518600667CF6 /* Supporting Files */,
+			);
+			path = RestKitTests;
+			sourceTree = "<group>";
+		};
+		EF526BBE154D518600667CF6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EF526BBF154D518600667CF6 /* RestKitTests-Info.plist */,
+				EF526BC0154D518600667CF6 /* InfoPlist.strings */,
+				EF526BC3154D518600667CF6 /* main.m */,
+				EF526BC5154D518600667CF6 /* RestKitTests-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EF526BDB154D518700667CF6 /* RestKitTestsTests */ = {
+			isa = PBXGroup;
+			children = (
+				EF526BE1154D518700667CF6 /* RestKitTestsTests.h */,
+				EF526BE2154D518700667CF6 /* RestKitTestsTests.m */,
+				EF526BDC154D518700667CF6 /* Supporting Files */,
+			);
+			path = RestKitTestsTests;
+			sourceTree = "<group>";
+		};
+		EF526BDC154D518700667CF6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EF526BDD154D518700667CF6 /* RestKitTestsTests-Info.plist */,
+				EF526BDE154D518700667CF6 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EF526BB2154D518600667CF6 /* RestKitTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EF526BE6154D518700667CF6 /* Build configuration list for PBXNativeTarget "RestKitTests" */;
+			buildPhases = (
+				EF526BAF154D518600667CF6 /* Sources */,
+				EF526BB0154D518600667CF6 /* Frameworks */,
+				EF526BB1154D518600667CF6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RestKitTests;
+			productName = RestKitTests;
+			productReference = EF526BB3154D518600667CF6 /* RestKitTests.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EF526BD3154D518700667CF6 /* RestKitTestsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EF526BE9154D518700667CF6 /* Build configuration list for PBXNativeTarget "RestKitTestsTests" */;
+			buildPhases = (
+				EF526BCF154D518700667CF6 /* Sources */,
+				EF526BD0154D518700667CF6 /* Frameworks */,
+				EF526BD1154D518700667CF6 /* Resources */,
+				EF526BD2154D518700667CF6 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EF526BDA154D518700667CF6 /* PBXTargetDependency */,
+			);
+			name = RestKitTestsTests;
+			productName = RestKitTestsTests;
+			productReference = EF526BD4154D518700667CF6 /* RestKitTestsTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EF526BAA154D518600667CF6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+				ORGANIZATIONNAME = "Lambda Software";
+			};
+			buildConfigurationList = EF526BAD154D518600667CF6 /* Build configuration list for PBXProject "RestKitTests" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = EF526BA8154D518600667CF6;
+			productRefGroup = EF526BB4154D518600667CF6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EF526BB2154D518600667CF6 /* RestKitTests */,
+				EF526BD3154D518700667CF6 /* RestKitTestsTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EF526BB1154D518600667CF6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF526BC2154D518600667CF6 /* InfoPlist.strings in Resources */,
+				EF526BCE154D518600667CF6 /* ViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF526BD1154D518700667CF6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF526BE0154D518700667CF6 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		EF526BD2154D518700667CF6 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EF526BAF154D518600667CF6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF526BC4154D518600667CF6 /* main.m in Sources */,
+				EF526BC8154D518600667CF6 /* AppDelegate.m in Sources */,
+				EF526BCB154D518600667CF6 /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF526BCF154D518700667CF6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF526BE3154D518700667CF6 /* RestKitTestsTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EF526BDA154D518700667CF6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EF526BB2154D518600667CF6 /* RestKitTests */;
+			targetProxy = EF526BD9154D518700667CF6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EF526BC0154D518600667CF6 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EF526BC1154D518600667CF6 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		EF526BCC154D518600667CF6 /* ViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EF526BCD154D518600667CF6 /* en */,
+			);
+			name = ViewController.xib;
+			sourceTree = "<group>";
+		};
+		EF526BDE154D518700667CF6 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EF526BDF154D518700667CF6 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EF526BE4154D518700667CF6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		EF526BE5154D518700667CF6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EF526BE7154D518700667CF6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RestKitTests/RestKitTests-Prefix.pch";
+				INFOPLIST_FILE = "RestKitTests/RestKitTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		EF526BE8154D518700667CF6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RestKitTests/RestKitTests-Prefix.pch";
+				INFOPLIST_FILE = "RestKitTests/RestKitTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		EF526BEA154D518700667CF6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/RestKitTests.app/RestKitTests";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RestKitTests/RestKitTests-Prefix.pch";
+				INFOPLIST_FILE = "RestKitTestsTests/RestKitTestsTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		EF526BEB154D518700667CF6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/RestKitTests.app/RestKitTests";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RestKitTests/RestKitTests-Prefix.pch";
+				INFOPLIST_FILE = "RestKitTestsTests/RestKitTestsTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EF526BAD154D518600667CF6 /* Build configuration list for PBXProject "RestKitTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF526BE4154D518700667CF6 /* Debug */,
+				EF526BE5154D518700667CF6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EF526BE6154D518700667CF6 /* Build configuration list for PBXNativeTarget "RestKitTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF526BE7154D518700667CF6 /* Debug */,
+				EF526BE8154D518700667CF6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		EF526BE9154D518700667CF6 /* Build configuration list for PBXNativeTarget "RestKitTestsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF526BEA154D518700667CF6 /* Debug */,
+				EF526BEB154D518700667CF6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EF526BAA154D518600667CF6 /* Project object */;
+}
