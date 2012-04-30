@@ -1,0 +1,6 @@
+{
+	"errors":[
+		"Name required", 
+		"Price required"
+	]
+}

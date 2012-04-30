@@ -10,4 +10,6 @@
 
 @interface ViewController : UIViewController
 
+- (IBAction)viewCategories:(id)sender;
+
 @end

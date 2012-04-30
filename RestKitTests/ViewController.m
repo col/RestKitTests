@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "CategoriesViewController.h"
 
 @interface ViewController ()
 
@@ -17,7 +18,8 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
+
+    self.navigationItem.title = @"Menu";
 }
 
 - (void)viewDidUnload
@@ -29,6 +31,12 @@
 - (BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)interfaceOrientation
 {
     return (interfaceOrientation != UIInterfaceOrientationPortraitUpsideDown);
+}
+
+- (IBAction)viewCategories:(id)sender
+{
+    CategoriesViewController *controller = [[[CategoriesViewController alloc] initWithStyle:UITableViewStylePlain] autorelease];
+    [self.navigationController pushViewController:controller animated:YES];
 }
 
 @end

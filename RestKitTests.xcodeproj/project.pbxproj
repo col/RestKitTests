@@ -7,6 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		EF3C3A71154E3295008474F6 /* RKTestFactory+AppExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = EF3C3A70154E3295008474F6 /* RKTestFactory+AppExtensions.m */; };
+		EF3C3A74154E34B2008474F6 /* Item+Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = EF3C3A73154E34B2008474F6 /* Item+Additions.m */; };
+		EF3C3A77154E34C2008474F6 /* Category+Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = EF3C3A76154E34C2008474F6 /* Category+Additions.m */; };
+		EF3C3A7A154E3659008474F6 /* item_partial.json in Resources */ = {isa = PBXBuildFile; fileRef = EF3C3A78154E3659008474F6 /* item_partial.json */; };
+		EF3C3A7B154E3659008474F6 /* item.json in Resources */ = {isa = PBXBuildFile; fileRef = EF3C3A79154E3659008474F6 /* item.json */; };
+		EF3C3A7E154E36E5008474F6 /* Category.m in Sources */ = {isa = PBXBuildFile; fileRef = EF3C3A7D154E36E5008474F6 /* Category.m */; };
+		EF3C3A81154E36E5008474F6 /* Item.m in Sources */ = {isa = PBXBuildFile; fileRef = EF3C3A80154E36E5008474F6 /* Item.m */; };
+		EF3C3A84154E3B59008474F6 /* CategoryLoaderTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EF3C3A83154E3B59008474F6 /* CategoryLoaderTests.m */; };
+		EF3C3A87154E49D7008474F6 /* ItemLoaderTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EF3C3A86154E49D7008474F6 /* ItemLoaderTests.m */; };
 		EF526BB8154D518600667CF6 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF526BB7154D518600667CF6 /* UIKit.framework */; };
 		EF526BBA154D518600667CF6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF526BB9154D518600667CF6 /* Foundation.framework */; };
 		EF526BBC154D518600667CF6 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF526BBB154D518600667CF6 /* CoreGraphics.framework */; };
@@ -19,7 +28,6 @@
 		EF526BD7154D518700667CF6 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF526BB7154D518600667CF6 /* UIKit.framework */; };
 		EF526BD8154D518700667CF6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF526BB9154D518600667CF6 /* Foundation.framework */; };
 		EF526BE0154D518700667CF6 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = EF526BDE154D518700667CF6 /* InfoPlist.strings */; };
-		EF526BE3154D518700667CF6 /* RestKitTestsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EF526BE2154D518700667CF6 /* RestKitTestsTests.m */; };
 		EF526C01154D543B00667CF6 /* libRestKit.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EF526BF8154D53DA00667CF6 /* libRestKit.a */; };
 		EF526C03154D544E00667CF6 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF526C02154D544E00667CF6 /* CFNetwork.framework */; };
 		EF526C05154D545400667CF6 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF526C04154D545400667CF6 /* CoreData.framework */; };
@@ -28,7 +36,6 @@
 		EF526C0B154D546C00667CF6 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF526C0A154D546C00667CF6 /* SystemConfiguration.framework */; };
 		EF526C0D154D547500667CF6 /* libxml2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = EF526C0C154D547500667CF6 /* libxml2.dylib */; };
 		EF526C0F154D547A00667CF6 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF526C0E154D547A00667CF6 /* QuartzCore.framework */; };
-		EF526C10154D54A700667CF6 /* libRestKit.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EF526BF8154D53DA00667CF6 /* libRestKit.a */; };
 		EF526C11154D54A700667CF6 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF526C02154D544E00667CF6 /* CFNetwork.framework */; };
 		EF526C12154D54A700667CF6 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF526C04154D545400667CF6 /* CoreData.framework */; };
 		EF526C13154D54A700667CF6 /* libxml2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = EF526C0C154D547500667CF6 /* libxml2.dylib */; };
@@ -37,6 +44,13 @@
 		EF526C16154D54A700667CF6 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF526C06154D545A00667CF6 /* Security.framework */; };
 		EF526C17154D54A700667CF6 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF526C0A154D546C00667CF6 /* SystemConfiguration.framework */; };
 		EF526C18154D55EE00667CF6 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF526BBB154D518600667CF6 /* CoreGraphics.framework */; };
+		EF526C1C154D56A000667CF6 /* RestKitTests.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = EF526C1A154D56A000667CF6 /* RestKitTests.xcdatamodeld */; };
+		EF526C30154D599100667CF6 /* RestKitConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = EF526C2F154D599000667CF6 /* RestKitConfig.m */; };
+		EF526C34154D62B500667CF6 /* CategoriesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EF526C33154D62B400667CF6 /* CategoriesViewController.m */; };
+		EF526C3F154E0D5D00667CF6 /* ObjectMappingTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EF526C3E154E0D5D00667CF6 /* ObjectMappingTests.m */; };
+		EF526C44154E258500667CF6 /* categories.json in Resources */ = {isa = PBXBuildFile; fileRef = EF526C41154E258500667CF6 /* categories.json */; };
+		EF526C46154E258500667CF6 /* category.json in Resources */ = {isa = PBXBuildFile; fileRef = EF526C42154E258500667CF6 /* category.json */; };
+		EF526C48154E2EB600667CF6 /* category_partial.json in Resources */ = {isa = PBXBuildFile; fileRef = EF526C47154E2EB600667CF6 /* category_partial.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -85,6 +99,22 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		EF3C3A6F154E3295008474F6 /* RKTestFactory+AppExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "RKTestFactory+AppExtensions.h"; sourceTree = "<group>"; };
+		EF3C3A70154E3295008474F6 /* RKTestFactory+AppExtensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "RKTestFactory+AppExtensions.m"; sourceTree = "<group>"; };
+		EF3C3A72154E34B2008474F6 /* Item+Additions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Item+Additions.h"; sourceTree = "<group>"; };
+		EF3C3A73154E34B2008474F6 /* Item+Additions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Item+Additions.m"; sourceTree = "<group>"; };
+		EF3C3A75154E34C2008474F6 /* Category+Additions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Category+Additions.h"; sourceTree = "<group>"; };
+		EF3C3A76154E34C2008474F6 /* Category+Additions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Category+Additions.m"; sourceTree = "<group>"; };
+		EF3C3A78154E3659008474F6 /* item_partial.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = item_partial.json; sourceTree = "<group>"; };
+		EF3C3A79154E3659008474F6 /* item.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = item.json; sourceTree = "<group>"; };
+		EF3C3A7C154E36E5008474F6 /* Category.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Category.h; sourceTree = "<group>"; };
+		EF3C3A7D154E36E5008474F6 /* Category.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Category.m; sourceTree = "<group>"; };
+		EF3C3A7F154E36E5008474F6 /* Item.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Item.h; sourceTree = "<group>"; };
+		EF3C3A80154E36E5008474F6 /* Item.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Item.m; sourceTree = "<group>"; };
+		EF3C3A82154E3B58008474F6 /* CategoryLoaderTests.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CategoryLoaderTests.h; sourceTree = "<group>"; };
+		EF3C3A83154E3B59008474F6 /* CategoryLoaderTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CategoryLoaderTests.m; sourceTree = "<group>"; };
+		EF3C3A85154E49D7008474F6 /* ItemLoaderTests.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ItemLoaderTests.h; sourceTree = "<group>"; };
+		EF3C3A86154E49D7008474F6 /* ItemLoaderTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ItemLoaderTests.m; sourceTree = "<group>"; };
 		EF526BB3154D518600667CF6 /* RestKitTests.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RestKitTests.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EF526BB7154D518600667CF6 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		EF526BB9154D518600667CF6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -102,8 +132,6 @@
 		EF526BD5154D518700667CF6 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
 		EF526BDD154D518700667CF6 /* RestKitTestsTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "RestKitTestsTests-Info.plist"; sourceTree = "<group>"; };
 		EF526BDF154D518700667CF6 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		EF526BE1154D518700667CF6 /* RestKitTestsTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RestKitTestsTests.h; sourceTree = "<group>"; };
-		EF526BE2154D518700667CF6 /* RestKitTestsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RestKitTestsTests.m; sourceTree = "<group>"; };
 		EF526BEC154D53DA00667CF6 /* RestKit.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RestKit.xcodeproj; path = RestKit/RestKit.xcodeproj; sourceTree = "<group>"; };
 		EF526C02154D544E00667CF6 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
 		EF526C04154D545400667CF6 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
@@ -112,6 +140,16 @@
 		EF526C0A154D546C00667CF6 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 		EF526C0C154D547500667CF6 /* libxml2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libxml2.dylib; path = usr/lib/libxml2.dylib; sourceTree = SDKROOT; };
 		EF526C0E154D547A00667CF6 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		EF526C1B154D56A000667CF6 /* RestKitTests.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = RestKitTests.xcdatamodel; sourceTree = "<group>"; };
+		EF526C2E154D599000667CF6 /* RestKitConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RestKitConfig.h; sourceTree = "<group>"; };
+		EF526C2F154D599000667CF6 /* RestKitConfig.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RestKitConfig.m; sourceTree = "<group>"; };
+		EF526C32154D62B400667CF6 /* CategoriesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CategoriesViewController.h; sourceTree = "<group>"; };
+		EF526C33154D62B400667CF6 /* CategoriesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CategoriesViewController.m; sourceTree = "<group>"; };
+		EF526C3D154E0D5D00667CF6 /* ObjectMappingTests.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ObjectMappingTests.h; sourceTree = "<group>"; };
+		EF526C3E154E0D5D00667CF6 /* ObjectMappingTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ObjectMappingTests.m; sourceTree = "<group>"; };
+		EF526C41154E258500667CF6 /* categories.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = categories.json; sourceTree = "<group>"; };
+		EF526C42154E258500667CF6 /* category.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = category.json; sourceTree = "<group>"; };
+		EF526C47154E2EB600667CF6 /* category_partial.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = category_partial.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -138,7 +176,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				EF526C18154D55EE00667CF6 /* CoreGraphics.framework in Frameworks */,
-				EF526C10154D54A700667CF6 /* libRestKit.a in Frameworks */,
 				EF526C11154D54A700667CF6 /* CFNetwork.framework in Frameworks */,
 				EF526C12154D54A700667CF6 /* CoreData.framework in Frameworks */,
 				EF526C13154D54A700667CF6 /* libxml2.dylib in Frameworks */,
@@ -202,7 +239,11 @@
 				EF526BC9154D518600667CF6 /* ViewController.h */,
 				EF526BCA154D518600667CF6 /* ViewController.m */,
 				EF526BCC154D518600667CF6 /* ViewController.xib */,
+				EF526C2E154D599000667CF6 /* RestKitConfig.h */,
+				EF526C2F154D599000667CF6 /* RestKitConfig.m */,
 				EF526BBE154D518600667CF6 /* Supporting Files */,
+				EF526C32154D62B400667CF6 /* CategoriesViewController.h */,
+				EF526C33154D62B400667CF6 /* CategoriesViewController.m */,
 			);
 			path = RestKitTests;
 			sourceTree = "<group>";
@@ -221,9 +262,16 @@
 		EF526BDB154D518700667CF6 /* RestKitTestsTests */ = {
 			isa = PBXGroup;
 			children = (
-				EF526BE1154D518700667CF6 /* RestKitTestsTests.h */,
-				EF526BE2154D518700667CF6 /* RestKitTestsTests.m */,
+				EF526C40154E258400667CF6 /* Fixtures */,
+				EF526C3D154E0D5D00667CF6 /* ObjectMappingTests.h */,
+				EF526C3E154E0D5D00667CF6 /* ObjectMappingTests.m */,
 				EF526BDC154D518700667CF6 /* Supporting Files */,
+				EF3C3A6F154E3295008474F6 /* RKTestFactory+AppExtensions.h */,
+				EF3C3A70154E3295008474F6 /* RKTestFactory+AppExtensions.m */,
+				EF3C3A82154E3B58008474F6 /* CategoryLoaderTests.h */,
+				EF3C3A83154E3B59008474F6 /* CategoryLoaderTests.m */,
+				EF3C3A85154E49D7008474F6 /* ItemLoaderTests.h */,
+				EF3C3A86154E49D7008474F6 /* ItemLoaderTests.m */,
 			);
 			path = RestKitTestsTests;
 			sourceTree = "<group>";
@@ -252,8 +300,29 @@
 		EF526C19154D562F00667CF6 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				EF526C1A154D56A000667CF6 /* RestKitTests.xcdatamodeld */,
+				EF3C3A7F154E36E5008474F6 /* Item.h */,
+				EF3C3A80154E36E5008474F6 /* Item.m */,
+				EF3C3A7C154E36E5008474F6 /* Category.h */,
+				EF3C3A7D154E36E5008474F6 /* Category.m */,
+				EF3C3A72154E34B2008474F6 /* Item+Additions.h */,
+				EF3C3A73154E34B2008474F6 /* Item+Additions.m */,
+				EF3C3A75154E34C2008474F6 /* Category+Additions.h */,
+				EF3C3A76154E34C2008474F6 /* Category+Additions.m */,
 			);
 			name = Model;
+			sourceTree = "<group>";
+		};
+		EF526C40154E258400667CF6 /* Fixtures */ = {
+			isa = PBXGroup;
+			children = (
+				EF3C3A78154E3659008474F6 /* item_partial.json */,
+				EF3C3A79154E3659008474F6 /* item.json */,
+				EF526C47154E2EB600667CF6 /* category_partial.json */,
+				EF526C41154E258500667CF6 /* categories.json */,
+				EF526C42154E258500667CF6 /* category.json */,
+			);
+			path = Fixtures;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -381,6 +450,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				EF526BE0154D518700667CF6 /* InfoPlist.strings in Resources */,
+				EF526C44154E258500667CF6 /* categories.json in Resources */,
+				EF526C46154E258500667CF6 /* category.json in Resources */,
+				EF526C48154E2EB600667CF6 /* category_partial.json in Resources */,
+				EF3C3A7A154E3659008474F6 /* item_partial.json in Resources */,
+				EF3C3A7B154E3659008474F6 /* item.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -410,6 +484,13 @@
 				EF526BC4154D518600667CF6 /* main.m in Sources */,
 				EF526BC8154D518600667CF6 /* AppDelegate.m in Sources */,
 				EF526BCB154D518600667CF6 /* ViewController.m in Sources */,
+				EF526C1C154D56A000667CF6 /* RestKitTests.xcdatamodeld in Sources */,
+				EF526C30154D599100667CF6 /* RestKitConfig.m in Sources */,
+				EF526C34154D62B500667CF6 /* CategoriesViewController.m in Sources */,
+				EF3C3A74154E34B2008474F6 /* Item+Additions.m in Sources */,
+				EF3C3A77154E34C2008474F6 /* Category+Additions.m in Sources */,
+				EF3C3A7E154E36E5008474F6 /* Category.m in Sources */,
+				EF3C3A81154E36E5008474F6 /* Item.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -417,7 +498,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EF526BE3154D518700667CF6 /* RestKitTestsTests.m in Sources */,
+				EF526C3F154E0D5D00667CF6 /* ObjectMappingTests.m in Sources */,
+				EF3C3A71154E3295008474F6 /* RKTestFactory+AppExtensions.m in Sources */,
+				EF3C3A84154E3B59008474F6 /* CategoryLoaderTests.m in Sources */,
+				EF3C3A87154E49D7008474F6 /* ItemLoaderTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -597,6 +681,7 @@
 				EF526BE8154D518700667CF6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		EF526BE9154D518700667CF6 /* Build configuration list for PBXNativeTarget "RestKitTestsTests" */ = {
 			isa = XCConfigurationList;
@@ -605,8 +690,22 @@
 				EF526BEB154D518700667CF6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		EF526C1A154D56A000667CF6 /* RestKitTests.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				EF526C1B154D56A000667CF6 /* RestKitTests.xcdatamodel */,
+			);
+			currentVersion = EF526C1B154D56A000667CF6 /* RestKitTests.xcdatamodel */;
+			path = RestKitTests.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = EF526BAA154D518600667CF6 /* Project object */;
 }
