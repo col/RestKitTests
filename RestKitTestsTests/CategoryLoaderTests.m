@@ -26,11 +26,11 @@
     [super tearDown];
 }
 
-- (void)testCategoryObjectLoader
+- (void)testCategoryObjectLoaderWithManualMapping
 {
 	RKObjectMappingProvider *mappingProvider = [RKObjectMappingProvider new];
     
-    // Either of these will work!
+    // Either of these will work
 //    [mappingProvider setObjectMapping:[Category objectMapping] forResourcePathPattern:@"/categories/:categoryID"];
     [mappingProvider setObjectMapping:[Category objectMapping] forKeyPath:@"category"];    
     
@@ -46,11 +46,21 @@
 	STAssertTrue([responseLoader.objects count] == 1, @"Expected to load one category");
 }
 
-- (void)testCategoriesObjectLoader
+- (void)testCategoryObjectLoader
+{
+    [Category registerMappings];
+	RKTestResponseLoader *responseLoader = [RKTestResponseLoader new];    
+    [[RKObjectManager sharedManager] loadObjectsAtResourcePath:@"/categoryies/1" delegate:responseLoader];
+	[responseLoader waitForResponse];
+	STAssertTrue([responseLoader wasSuccessful], @"Expected 200 response");
+	STAssertTrue([responseLoader.objects count] == 1, @"Expected to load one category");
+}
+
+- (void)testCategoriesObjectLoaderWithManualMapping
 {
 	RKObjectMappingProvider *mappingProvider = [RKObjectMappingProvider new];
     
-    // Either of these will work!
+    // Either of these will work
     //    [mappingProvider setObjectMapping:[Category objectMapping] forResourcePathPattern:@"/categories/:categoryID"];
     [mappingProvider setObjectMapping:[Category objectMapping] forKeyPath:@"category"];    
     
@@ -61,6 +71,16 @@
     responseLoader.timeout = 10;
 	loader.delegate = responseLoader;
     [loader sendAsynchronously];
+	[responseLoader waitForResponse];
+	STAssertTrue([responseLoader wasSuccessful], @"Expected 200 response");
+	STAssertTrue([responseLoader.objects count] == 2, @"Expected to load two categories");
+}
+
+- (void)testCategoriesObjectLoader
+{
+    [Category registerMappings];        
+	RKTestResponseLoader *responseLoader = [RKTestResponseLoader new];
+    [[RKObjectManager sharedManager] loadObjectsAtResourcePath:@"/categories" delegate:responseLoader];
 	[responseLoader waitForResponse];
 	STAssertTrue([responseLoader wasSuccessful], @"Expected 200 response");
 	STAssertTrue([responseLoader.objects count] == 2, @"Expected to load two categories");

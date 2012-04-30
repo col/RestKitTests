@@ -11,5 +11,6 @@
 @interface ViewController : UIViewController
 
 - (IBAction)viewCategories:(id)sender;
+- (IBAction)viewItems:(id)sender;
 
 @end

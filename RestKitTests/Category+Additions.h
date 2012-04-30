@@ -11,6 +11,10 @@
 
 @interface Category (Additions)
 
++ (void)registerMappings;
+
 + (RKObjectMapping *)objectMapping;
+
++ (RKObjectMapping *)serializationMapping;
 
 @end

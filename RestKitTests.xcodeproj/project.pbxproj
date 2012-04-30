@@ -16,6 +16,8 @@
 		EF3C3A81154E36E5008474F6 /* Item.m in Sources */ = {isa = PBXBuildFile; fileRef = EF3C3A80154E36E5008474F6 /* Item.m */; };
 		EF3C3A84154E3B59008474F6 /* CategoryLoaderTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EF3C3A83154E3B59008474F6 /* CategoryLoaderTests.m */; };
 		EF3C3A87154E49D7008474F6 /* ItemLoaderTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EF3C3A86154E49D7008474F6 /* ItemLoaderTests.m */; };
+		EF3C3A97154EC25C008474F6 /* item_partial_with_category.json in Resources */ = {isa = PBXBuildFile; fileRef = EF3C3A96154EC25C008474F6 /* item_partial_with_category.json */; };
+		EF3C3A9A154EC286008474F6 /* ItemsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EF3C3A99154EC286008474F6 /* ItemsViewController.m */; };
 		EF526BB8154D518600667CF6 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF526BB7154D518600667CF6 /* UIKit.framework */; };
 		EF526BBA154D518600667CF6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF526BB9154D518600667CF6 /* Foundation.framework */; };
 		EF526BBC154D518600667CF6 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF526BBB154D518600667CF6 /* CoreGraphics.framework */; };
@@ -115,6 +117,9 @@
 		EF3C3A83154E3B59008474F6 /* CategoryLoaderTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CategoryLoaderTests.m; sourceTree = "<group>"; };
 		EF3C3A85154E49D7008474F6 /* ItemLoaderTests.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ItemLoaderTests.h; sourceTree = "<group>"; };
 		EF3C3A86154E49D7008474F6 /* ItemLoaderTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ItemLoaderTests.m; sourceTree = "<group>"; };
+		EF3C3A96154EC25C008474F6 /* item_partial_with_category.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = item_partial_with_category.json; sourceTree = "<group>"; };
+		EF3C3A98154EC286008474F6 /* ItemsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ItemsViewController.h; sourceTree = "<group>"; };
+		EF3C3A99154EC286008474F6 /* ItemsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ItemsViewController.m; sourceTree = "<group>"; };
 		EF526BB3154D518600667CF6 /* RestKitTests.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RestKitTests.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EF526BB7154D518600667CF6 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		EF526BB9154D518600667CF6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -244,6 +249,8 @@
 				EF526BBE154D518600667CF6 /* Supporting Files */,
 				EF526C32154D62B400667CF6 /* CategoriesViewController.h */,
 				EF526C33154D62B400667CF6 /* CategoriesViewController.m */,
+				EF3C3A98154EC286008474F6 /* ItemsViewController.h */,
+				EF3C3A99154EC286008474F6 /* ItemsViewController.m */,
 			);
 			path = RestKitTests;
 			sourceTree = "<group>";
@@ -316,6 +323,7 @@
 		EF526C40154E258400667CF6 /* Fixtures */ = {
 			isa = PBXGroup;
 			children = (
+				EF3C3A96154EC25C008474F6 /* item_partial_with_category.json */,
 				EF3C3A78154E3659008474F6 /* item_partial.json */,
 				EF3C3A79154E3659008474F6 /* item.json */,
 				EF526C47154E2EB600667CF6 /* category_partial.json */,
@@ -455,6 +463,7 @@
 				EF526C48154E2EB600667CF6 /* category_partial.json in Resources */,
 				EF3C3A7A154E3659008474F6 /* item_partial.json in Resources */,
 				EF3C3A7B154E3659008474F6 /* item.json in Resources */,
+				EF3C3A97154EC25C008474F6 /* item_partial_with_category.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -491,6 +500,7 @@
 				EF3C3A77154E34C2008474F6 /* Category+Additions.m in Sources */,
 				EF3C3A7E154E36E5008474F6 /* Category.m in Sources */,
 				EF3C3A81154E36E5008474F6 /* Item.m in Sources */,
+				EF3C3A9A154EC286008474F6 /* ItemsViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -86,7 +86,7 @@
     STAssertTrue([item.price floatValue] == 9.99f, @"Expected price to be '9.99'");
 }
 
-- (void)testItemGet
+- (void)testItemGetFromExistingObject
 {    
     [Item registerMappings];
     

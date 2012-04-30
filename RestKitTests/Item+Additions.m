@@ -7,6 +7,8 @@
 //
 
 #import "Item+Additions.h"
+#import "Category.h"
+#import "Category+Additions.h"
 
 @implementation Item (Additions)
 
@@ -38,6 +40,10 @@
      @"name", @"name",
      @"price", @"price",         
      nil];   
+    
+    // Category (to one relationship)
+    [mapping mapKeyPath:@"category" toRelationship:@"category" withMapping:[Category objectMapping]];
+    [mapping connectRelationship:@"category" withObjectForPrimaryKeyAttribute:@"categoryID"];
     
     return mapping;
 }

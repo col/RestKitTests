@@ -8,6 +8,7 @@
 
 #import "ViewController.h"
 #import "CategoriesViewController.h"
+#import "ItemsViewController.h"
 
 @interface ViewController ()
 
@@ -37,6 +38,12 @@
 {
     CategoriesViewController *controller = [[[CategoriesViewController alloc] initWithStyle:UITableViewStylePlain] autorelease];
     [self.navigationController pushViewController:controller animated:YES];
+}
+
+- (IBAction)viewItems:(id)sender
+{
+    ItemsViewController *controller = [[[ItemsViewController alloc] initWithStyle:UITableViewStylePlain] autorelease];
+    [self.navigationController pushViewController:controller animated:YES];    
 }
 
 @end

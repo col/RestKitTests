@@ -55,14 +55,10 @@ NSString* const BaseURL = @"http://localhost:3000";
     
     // Set the cache strategy
     objectManager.objectStore.cacheStrategy = [RKInMemoryManagedObjectCache new];        
-//    self.objectStore = objectManager.objectStore;    
-    
-    // Register Mappings
-//    [objectManager.mappingProvider addObjectMapping:[RestKitConfig categoryObjectMapping]];    
-//    [objectManager.mappingProvider addObjectMapping:self.itemObjectMapping];
-    
-    [objectManager.mappingProvider setMapping:[Category objectMapping] forKeyPath:@"category"];        
-    [objectManager.mappingProvider setMapping:[Item objectMapping] forKeyPath:@"item"];
+
+    // Register model mappings
+    [Category registerMappings];    
+    [Item registerMappings];
          
     // Configure RestKit Logging        
     RKLogConfigureByName("RestKit", RKLogLevelDebug);
@@ -73,46 +69,6 @@ NSString* const BaseURL = @"http://localhost:3000";
     //Enable verbose logging for the App component. 
     RKLogSetAppLoggingLevel(RKLogLevelDebug);    
 }
-
-//+ (RKManagedObjectMapping *)categoryObjectMapping
-//{
-////    if( categoryObjectMapping == nil )
-////    {
-//    RKManagedObjectMapping* mapping = [RKManagedObjectMapping mappingForClass:[Category class] inManagedObjectStore:[RKObjectManager sharedManager].objectStore];
-//    mapping.primaryKeyAttribute = @"categoryID";
-//    mapping.rootKeyPath = @"category";        
-//    [mapping mapKeyPathsToAttributes:
-//     @"id", @"categoryID",
-//     @"name", @"name",
-//     nil];
-//    return mapping;
-////        self.categoryObjectMapping = mapping;
-////    }
-////    return categoryObjectMapping;
-//}
-
-//- (RKManagedObjectMapping *)itemObjectMapping
-//{
-////    if( itemObjectMapping == nil )
-////    {
-//    RKManagedObjectMapping* mapping = [RKManagedObjectMapping mappingForClass:[Item class] inManagedObjectStore:[RKObjectManager sharedManager].objectStore];
-//    mapping.primaryKeyAttribute = @"itemID";
-//    mapping.rootKeyPath = @"item";                
-//    [mapping mapKeyPathsToAttributes:
-//     @"id", @"itemID",
-//     @"category_id", @"categoryID",         
-//     @"name", @"name",
-//     @"price", @"price",         
-//     nil];
-//    return mapping;
-//
-////        [mapping mapRelationship:@"category" withMapping:[self categoryObjectMapping]];
-////        [mapping connectRelationship:@"category" withObjectForPrimaryKeyAttribute:@"categoryID"];        
-//        
-////        self.itemObjectMapping = mapping;
-////    }
-////    return itemObjectMapping;
-//}
 
 #pragma mark - Singleton methods
 

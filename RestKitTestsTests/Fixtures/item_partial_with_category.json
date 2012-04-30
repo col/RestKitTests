@@ -1,0 +1,11 @@
+{
+	"category":{
+		"id": 1,
+		"name": "Test Category"
+	},
+	"created_at":"2012-04-30T02:53:01Z",
+	"id":1,
+	"name":"Test Item",
+	"price":9.99,
+	"updated_at":"2012-04-30T02:53:01Z"
+}
