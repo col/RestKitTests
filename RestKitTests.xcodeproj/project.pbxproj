@@ -238,6 +238,7 @@
 		EF526BBD154D518600667CF6 /* RestKitTests */ = {
 			isa = PBXGroup;
 			children = (
+				EF526BBE154D518600667CF6 /* Supporting Files */,
 				EF526C19154D562F00667CF6 /* Model */,
 				EF526BC6154D518600667CF6 /* AppDelegate.h */,
 				EF526BC7154D518600667CF6 /* AppDelegate.m */,
@@ -246,7 +247,6 @@
 				EF526BCC154D518600667CF6 /* ViewController.xib */,
 				EF526C2E154D599000667CF6 /* RestKitConfig.h */,
 				EF526C2F154D599000667CF6 /* RestKitConfig.m */,
-				EF526BBE154D518600667CF6 /* Supporting Files */,
 				EF526C32154D62B400667CF6 /* CategoriesViewController.h */,
 				EF526C33154D62B400667CF6 /* CategoriesViewController.m */,
 				EF3C3A98154EC286008474F6 /* ItemsViewController.h */,
